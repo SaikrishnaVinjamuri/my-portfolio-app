@@ -1,0 +1,27 @@
+.aboutContainer {
+    padding: 4rem 10%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 2rem 0;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutInfo {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.aboutInfo span {
+    display: block;
+    margin-top: 1rem;
+    font-style: italic;
+}

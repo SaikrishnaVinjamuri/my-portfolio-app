@@ -1,0 +1,11 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to right, #0652C5, #D4418E);
+    color: white;
+  }
+  

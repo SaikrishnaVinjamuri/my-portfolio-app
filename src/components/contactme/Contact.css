@@ -1,0 +1,29 @@
+.contact-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .google-form-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+    border: none;
+  }
+  

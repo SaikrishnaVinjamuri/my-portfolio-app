@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #0652C5, #D4418E);
+  color: white;
+  overflow-y: scroll;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section styling */
+section {
+  padding: 4rem 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Container styling */
+/* .aboutContainer, .educationContainer, .skillContainer, .projectContainer, .experienceContainer, .contactContainer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 800px;
+} */
+
+/* Hover effects */
+.componentsItems:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+  transition: all 0.3s ease;
+}
